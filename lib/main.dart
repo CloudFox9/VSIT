@@ -11,7 +11,7 @@ void main() {
     theme: ThemeData(
       primarySwatch: Colors.indigo,
     ),
-    home: Splash(),
+    home: const Splash(),
     navigatorKey: navigatorKey,
   ));
 }

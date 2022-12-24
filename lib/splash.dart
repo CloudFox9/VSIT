@@ -1,4 +1,3 @@
-import 'package:secure_auth/screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:secure_auth/screens/welcome.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -33,7 +32,12 @@ class _SplashState extends State<Splash> {
           );
         });
       } else {
-        //COndtion never matches
+        setState(() {
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => const Welcome()),
+          );
+        });
       }
     } else {
       setState(() {

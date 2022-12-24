@@ -66,7 +66,8 @@ class _FaceSpeechState extends State<FaceSpeech> {
                                 timeInSecForIosWeb: 10,
                                 webPosition: "right",
                                 backgroundColor: Colors.blueGrey,
-                                msg: "Developed By Hackathon Team : Se7enCode");
+                                msg:
+                                    "Developed By Hackathon Team : Undersc0re");
                           },
                           child: const SizedBox(
                             height: 50,

@@ -132,14 +132,14 @@ class _LoginPageState extends State<LoginPage> {
                                 onTap: () {
                                   Fluttertoast.showToast(
                                       msg:
-                                          "Developed By Hackathon Team : Se7enCode");
+                                          "Developed By Hackathon Team : Undersc0re");
                                 },
                                 child: Container(
                                   height: 50,
                                   width: 170,
                                   child: const Center(
                                     child: Text(
-                                      'Team : Se7enCode',
+                                      'Team : Undersc0re',
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 16,

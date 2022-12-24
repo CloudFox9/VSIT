@@ -35,7 +35,7 @@ class _WelcomeState extends State<Welcome> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      "Team : Se7enCode\nProject : S3 Auth",
+                      "Team : Undersc0re\nProject : S3 Auth",
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 40,
@@ -65,7 +65,8 @@ class _WelcomeState extends State<Welcome> {
                                 timeInSecForIosWeb: 10,
                                 webPosition: "right",
                                 backgroundColor: Colors.blueGrey,
-                                msg: "Developed By Hackathon Team : Se7enCode");
+                                msg:
+                                    "Developed By Hackathon Team : Undersc0re");
                           },
                           child: const SizedBox(
                             height: 50,
